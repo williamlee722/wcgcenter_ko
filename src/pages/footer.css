@@ -1,0 +1,29 @@
+.footer{
+    background-color: rgb(0, 48, 87);
+    padding: 40px 0px 50px 0px;
+    color: rgb(245, 245, 245);
+    bottom: 0;
+    width: 100%;
+}
+
+.footer .info{
+    width: 800px;
+    text-transform: uppercase;
+}
+
+.footer .address{
+    margin-right: 15px;
+}
+
+.footer a{
+    text-decoration: none;
+    color: rgb(245, 245, 245);
+}
+
+.copyright{
+    text-transform: uppercase;
+}
+
+.sitemap{
+    float: right;
+}

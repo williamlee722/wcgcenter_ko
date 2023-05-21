@@ -1,0 +1,46 @@
+.home{
+    background-color: rgb(220, 220, 220);
+    margin-top: 5rem;
+}
+
+.row2{
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.box1{
+    background-color: rgb(255, 94, 94);
+    width: 200px;
+    height: 200px;
+    margin: 30px;
+    padding: 25px;
+    color: white;
+}
+
+.box2{
+    background-color: rgb(255, 186, 68);
+    width: 200px;
+    height: 200px;
+    margin: 30px;
+    padding: 25px;
+    color: white;
+}
+
+.box3{
+    background-color: rgb(80, 156, 255);
+    width: 200px;
+    height: 200px;
+    margin: 30px;
+    padding: 25px;
+    color: white;
+}
+
+.box-title{
+    font-size: 1.2em;
+    font-weight: 600;
+}
+
+.box-desc{
+    font-weight: 100;
+}
