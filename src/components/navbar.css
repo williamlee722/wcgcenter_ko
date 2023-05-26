@@ -1,5 +1,53 @@
 nav{
-    top: 0;
+    background-color: white;
+}
+
+.sub{
+    z-index: 10001;
+    height: 30px;
+    width: 100%;
+    position: fixed;
+    transition-timing-function: ease-in-out;
+    transition: 0.2s;
+    top: -75px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  }
+  
+.sub_show{
+    position: fixed;
+    top: 0px;
+}
+
+.sub ul{
+    margin-right: 25%;
+}
+
+
+.sub li{
+    list-style: none;
+    display: inline;
+    margin-left: 10px;
+}
+
+.sub li a{
+    margin-left: 10px;
+    margin-right: 10px;
+    text-decoration: none;
+    color: rgb(2,69,124);
+    font-weight: 500;
+    font-size: .8em;
+    transition: 0.2s ease-in-out;
+}
+
+.sub li a:hover{
+    color: rgb(238, 63, 51);
+}
+
+.main{
+    top: 0px;
     position: fixed;
     z-index: 10000;
     width: 100%;
@@ -8,14 +56,19 @@ nav{
     align-items: center;
     justify-content: center;
     border-bottom: 1px solid rgb(220, 220, 220);
-    height: 5rem;
+    height: 70px;
+    transition-timing-function: ease-in-out;
+    transition: 0.1s;
+}
+
+.main_show{
+    top: 30px;
+    position: fixed;
 }
 
 .applogo{
     width: 200px;
     height: auto;
-    padding: 20px;
-    margin-top: 5px;
 }
 
 .navbar{
@@ -48,35 +101,6 @@ nav{
     height: 3px;
     background: rgb(238, 63, 51);
     position: absolute;
-    bottom: -29px;
+    bottom: -25px;
     left: 20%;
-}
-
-.sub{
-    top: 0;
-    right: 80px;
-    position: fixed;
-    z-index: 10000;
-    height: 5rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.sub li{
-    list-style: none;
-    display: inline;
-    margin-left: 10px;
-}
-
-.sub li a{
-    text-decoration: none;
-    color: rgb(2,69,124);
-    font-weight: 100;
-    font-size: 0.75em;
-    transition: 0.2s ease-in-out;
-}
-
-.sub li a:hover{
-    color: rgb(238, 63, 51);
 }

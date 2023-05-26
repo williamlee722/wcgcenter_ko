@@ -1,0 +1,74 @@
+.footer{
+    background-color: rgb(135, 135, 135);
+}
+
+.footer .title{
+    height: 55px;
+    margin: auto;
+    width: 1140px;
+    padding-top: 25px;
+    border-bottom: .5px solid rgba(255, 255, 255, 0.5);
+}
+
+.footer .title .logo{
+    text-transform: uppercase;
+    font-weight: 200;
+    font-size: 1.8em;
+    color: white;
+}
+
+.footer .title ul{
+    float: inline-end;
+    margin-top: 7px;
+}
+
+.footer .title li{
+    text-transform: uppercase;
+    list-style: none;
+    display: inline;
+    margin-right: 15px;
+}
+
+.footer .container{
+    padding: 40px 0px 50px 0px;
+    color: rgb(245, 245, 245);
+    bottom: 0;
+}
+
+.footer .info{
+    font-weight: 200;
+    font-size: .8em;
+    width: 800px;
+    text-transform: uppercase;
+}
+
+.footer .address{
+    margin-right: 15px;
+}
+
+.footer a{
+    text-decoration: none;
+    color: rgb(245, 245, 245);
+}
+
+.copyright{
+    text-transform: uppercase;
+    font-weight: 200;
+    font-size: .8em;
+}
+
+.allrights{
+    font-weight: 200;
+    font-size: .8em;
+}
+
+.sitemap{
+    float: right;
+}
+
+.creditation img{
+    margin-top: -15px;
+    float: right;
+    width: 80px;
+    height: auto;
+}

@@ -1,39 +1,73 @@
 .home{
-    background-color: rgb(220, 220, 220);
-    margin-top: 5rem;
+    background-color: rgb(240, 240, 240);
+    margin-top: 100px;
+}
+
+.row1{
+    margin: auto;
+    width: 98%;
 }
 
 .row2{
     position: relative;
     display: flex;
     justify-content: center;
+    margin-top: 20px;
 }
 
 .box1{
-    background-color: rgb(255, 94, 94);
+    background-color: rgb(29, 97, 122);
     width: 200px;
     height: 200px;
-    margin: 30px;
+    margin: 10px 10px 10px 0;
     padding: 25px;
     color: white;
 }
 
 .box2{
-    background-color: rgb(255, 186, 68);
+    background-color: rgb(0, 161, 139);
     width: 200px;
     height: 200px;
-    margin: 30px;
+    margin: 10px;
     padding: 25px;
     color: white;
 }
 
 .box3{
-    background-color: rgb(80, 156, 255);
+    background-color: rgb(101, 197, 185);
     width: 200px;
     height: 200px;
-    margin: 30px;
+    margin: 10px;
     padding: 25px;
     color: white;
+}
+
+.home .hmo-button, .home .ppo-button{
+    text-decoration: none;
+    color: white;
+    font-weight: 200;
+    border: 1px solid white;
+    padding: 10px 34px;
+    transition: .2s ease-out;
+}
+
+.home .hmo-button:hover, .home .ppo-button:hover{
+    text-decoration: none;
+    color: rgb(101, 197, 185);
+    background-color: white;
+    font-weight: 200;
+    border: 1px solid white;
+    padding: 10px 34px;
+}
+
+.box4{
+    border: 2px solid rgb(29, 97, 122);
+    background-color: white;
+    width: 200px;
+    height: 200px;
+    padding: 23px 23px;
+    margin: 10px 0 10px 10px;
+    color: rgb(29, 97, 122);
 }
 
 .box-title{
@@ -42,5 +76,161 @@
 }
 
 .box-desc{
-    font-weight: 100;
+    font-size: 1em;
+    font-weight: 200;
+    line-height: 1.8;  
+    margin-bottom: 45px;  
+}
+
+.home .more-button{
+    text-decoration: none;
+    color: white;
+    font-weight: 200;
+    border: .5px solid white;
+    padding: 10px 78px;
+    transition: .2s ease-out;
+}
+
+.home .more-button:hover{
+    text-decoration: none;
+    background-color: white;
+    font-weight: 200;
+    border: .5px solid white;
+    padding: 10px 78px;
+}
+
+.box1 .more-button:hover{
+    color: rgb(29, 97, 122);
+}
+
+.box2 .more-button:hover{
+    color: rgb(0, 161, 139)
+}
+
+.row3{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin: 10px 0px 0px 0px;
+}
+
+.physician{
+    background-image: url("../images/physician.png");
+    background-size: contain;
+    background-color: rgb(230, 230, 230);
+    width: 520px;
+    height: 250px;
+    margin: 10px 10px 10px 0px;
+}
+
+.physicianIntro{
+    margin: 25px 0 10px 200px;
+}
+
+.physicianIntro .title{
+    color: rgb(0, 161, 139);
+    font-size: 1.6em;
+    font-weight: 700;
+}
+
+.physicianIntro .desc{
+    font-size: 1em;
+    font-weight: 200;
+    line-height: 1.8;  
+    margin-bottom: 30px;  
+}
+
+.home .steve-button, .home .dohee-button{
+    text-decoration: none;
+    color: rgb(0, 161, 139);
+    font-weight: 200;
+    border: 1px solid rgb(0, 161, 139);
+    padding: 10px 20px;
+    transition: .2s ease-out;
+}
+
+.home .steve-button:hover, .home .dohee-button:hover{
+    text-decoration: none;
+    color: white;
+    background-color: rgb(0, 161, 139);
+    font-weight: 200;
+    border: 1px solid rgb(0, 161, 139);
+    padding: 10px 20px;
+}
+
+.box5{
+    background-color: rgb(214,239,235);
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    padding: 25px;
+    color: black;
+}
+
+.box-num a{
+    text-decoration: none;
+    color: rgb(0, 161, 139);
+    font-size: 1.7em;
+    font-weight: 800;
+}
+
+.box-mail a{
+    text-decoration: none;
+    color: rgb(0, 161, 139);
+    font-size: 1.3em;
+    font-weight: 800;
+}
+
+.box-num a:hover, .box-mail a:hover{
+    text-decoration: underline;
+}
+
+.box6{
+    background-image: url("../images/map.png");
+    background-size: 90%;
+    background-repeat: no-repeat;
+    background-position-x: 90%;
+    background-position-y: 90%;
+    border: 2px solid rgb(0, 161, 139);
+    background-color: rgb(0, 161, 139);
+    width: 200px;
+    height: 200px;
+    padding: 23px 23px;
+    margin: 10px 0 10px 10px;
+    color: white;
+}
+
+.row4{
+    height: 20px;
+}
+
+.home .map-container{
+    margin-top: 30px;
+}
+
+.home .map-button{
+    text-decoration: none;
+    color: white;
+    font-weight: 200;
+    border: .5px solid white;
+    padding: 10px 55px;
+    transition: .2s ease-out;
+}
+
+.home .map-button:hover{
+    text-decoration: none;
+    color: rgb(0, 161, 139);
+    background-color: white;
+    font-weight: 200;
+    border: .5px solid white;
+    padding: 10px 55px;
+}
+
+.treat-link{
+    text-decoration: none;
+    color: white;
+}
+
+.treat-link:hover{
+    text-decoration: underline;
 }
