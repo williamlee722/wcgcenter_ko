@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/wcgcenter_ko/static/css/main.4d870ce5.css",
-    "main.js": "/wcgcenter_ko/static/js/main.d6c6eac2.js",
+    "main.css": "/wcgcenter_ko/static/css/main.100f10d6.css",
+    "main.js": "/wcgcenter_ko/static/js/main.3af8f1a8.js",
     "static/media/physician.png": "/wcgcenter_ko/static/media/physician.660f4b60a250e6b10570.png",
     "static/media/map.png": "/wcgcenter_ko/static/media/map.5ae776c781611a50759c.png",
     "static/media/slider1.jpg": "/wcgcenter_ko/static/media/slider1.f1c5d7112613e8fd5e92.jpg",
@@ -9,11 +9,11 @@
     "static/media/ACR.png": "/wcgcenter_ko/static/media/ACR.963c8feb2d514fb7dfba.png",
     "static/media/app_logo.svg": "/wcgcenter_ko/static/media/app_logo.4b4f68f876b9cac400378f4c06ea4af7.svg",
     "index.html": "/wcgcenter_ko/index.html",
-    "main.4d870ce5.css.map": "/wcgcenter_ko/static/css/main.4d870ce5.css.map",
-    "main.d6c6eac2.js.map": "/wcgcenter_ko/static/js/main.d6c6eac2.js.map"
+    "main.100f10d6.css.map": "/wcgcenter_ko/static/css/main.100f10d6.css.map",
+    "main.3af8f1a8.js.map": "/wcgcenter_ko/static/js/main.3af8f1a8.js.map"
   },
   "entrypoints": [
-    "static/css/main.4d870ce5.css",
-    "static/js/main.d6c6eac2.js"
+    "static/css/main.100f10d6.css",
+    "static/js/main.3af8f1a8.js"
   ]
 }
