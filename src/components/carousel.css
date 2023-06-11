@@ -11,6 +11,125 @@
 }
 
 .swiper-img{
-    width: 100%;
+    display: flex;
+    margin: auto;
+    max-width: 100%;
     height: auto;
+    max-height: 450px;
+    background-color: white;
+}
+
+.swiper-png{
+    background-color: white;
+    width: 50%;
+    height: auto;
+    float: left;
+}
+
+.swiper-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.swiper-title{
+    color: #1d617a;
+    font-size: 2.8em;
+    font-weight: 700;
+    margin-top: 0;
+    margin-bottom: 40px;
+}
+
+.swiper-highlight{
+    color: #1d617a;
+}
+
+.swiper-body{
+    font-size: 1.1em;
+    margin-top: 0;
+    margin-bottom: 50px;
+}
+
+.linkfromslide{
+    text-align: center;
+    border: 1px solid #1d617a;
+    padding: 12px 110px;
+    color: #1d617a;
+    font-size: 1.5em;
+    background-color: white;
+    text-decoration: none;
+    transition: .3s all;
+}
+
+.linkfromslide:hover{
+    background-color: #1d617a;
+    color: white;
+}
+
+.swiper-img-mobile, .linkfromslide-mobile{
+    display: none;
+}
+
+@media screen and (max-width: 576px) {
+    .swiper-button-prev, .swiper-button-next, .swiper-pagination-bullet{
+        display: none;
+    }
+
+    .swiper-img-mobile{
+        display: flex;
+        width: 100%;
+        height: auto;
+        background-color: white;
+    }
+    
+    .swiper-img, .linkfromslide{
+        display: none;
+    }
+
+    .swiper-png{
+        background-color: white;
+        width: 50%;
+        height: auto;
+        float: left;
+    }
+    
+    .swiper-text{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .swiper-title{
+        color: #1d617a;
+        font-size: 1.5em;
+        font-weight: 800;
+        margin-top: 0;
+        margin-bottom: 20px;
+    }
+    
+    .swiper-highlight{
+        color: #1d617a;
+    }
+    
+    .swiper-body{
+        font-size: .6em;
+        margin-top: 0;
+        margin-bottom: 20px;
+    }
+    
+    .linkfromslide-mobile{
+        display: block;
+        text-align: center;
+        border: 1px solid #1d617a;
+        padding: 5px 40px;
+        color: #1d617a;
+        font-size: .6em;
+        background-color: white;
+        text-decoration: none;
+        transition: .3s all;
+    }
 }

@@ -1,0 +1,119 @@
+.physician{
+    background-color: rgb(255, 255, 255);
+    margin-top: 100px;
+}
+
+.body{
+    padding: 0px 30px 0px 30px;
+    display: flex;
+    align-items: flex-start;
+    height: 650px;
+}
+
+.body-main{
+    width: 828px;
+    height: 100%;
+}
+
+.main-container{
+    width: 100%;
+    height: 100%;
+}
+
+.main-body{
+    padding: 30px;
+}
+
+.physician .main-body .name{
+    font-size: 1.8em;
+    font-weight: 700;
+    margin-right: 15px;
+    margin-top: 15px;
+}
+
+.physician .main-body .title{
+    padding: 0px 15px 0px 15px;
+    border-left: .5px solid rgba(0, 0, 0, 0.5);
+    border-right: .5px solid rgba(0, 0, 0, 0.5);
+}
+
+.physician .main-body .dept{
+    padding-left: 15px;
+}
+
+.physician .steve{
+    background-image: url(../images/steveProfile.jpg);
+}
+
+.physician .dohee{
+    background-image: url(../images/doheeProfile.jpg);
+}
+
+.physician .steve, .physician .dohee{
+    background-size: cover;
+    width: 280px;
+    height: 400px;
+    box-shadow: 10px 10px 3px 0 white inset, -10px -10px 3px 0 white inset; 
+}
+
+.physician .biography{
+    display: flex;
+    flex-direction: row;
+}
+
+.physician .portfolio{
+    width: 460px;
+    margin-left: 15px;
+    margin-top: 5px;
+}
+
+.portfolio table, .portfolio thead, .portfolio tr, .portfolio td{
+    text-align: start;
+    line-height: 2;
+}
+
+.portfolio thead{
+    font-weight: 700;
+    font-size: 1.2em;
+}
+
+@media screen and (max-width: 576px) {
+    .physician{
+        margin-top: 70px;
+    }
+
+    .body{
+        height: fit-content;
+    }
+
+    .physician .biography{
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+
+    .physician .steve, .physician .dohee{
+        width: 280px;
+        height: 400px;
+    }
+
+    .physician .portfolio{
+        width: 100%;
+        margin-left: 0;
+        margin-top: 15px;
+    }
+
+    .portfolio table{
+        padding: 0 10px;
+    }
+    
+    .portfolio table, .portfolio thead, .portfolio tr, .portfolio td{
+        text-align: start;
+        line-height: 2;
+    }
+    
+    .portfolio thead{
+        font-weight: 700;
+        font-size: 1.2em;
+    }
+}

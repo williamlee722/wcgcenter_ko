@@ -12,11 +12,12 @@
     position: relative;
     display: flex;
     justify-content: center;
+    align-items: center;
     margin-top: 20px;
 }
 
 .box1{
-    background-color: rgb(29, 97, 122);
+    background-color: #1d617a;
     width: 200px;
     height: 200px;
     margin: 10px 10px 10px 0;
@@ -70,6 +71,12 @@
     color: rgb(29, 97, 122);
 }
 
+.box4 .box-desc{
+    margin-top: 23px;
+    margin-bottom: 50px;
+    line-height: 2.3;
+}
+
 .box-title{
     font-size: 1.2em;
     font-weight: 600;
@@ -107,6 +114,24 @@
     color: rgb(0, 161, 139)
 }
 
+.home .reserve-button{
+    text-decoration: none;
+    color: rgb(29, 97, 122);
+    font-weight: 200;
+    border: .5px solid rgb(29, 97, 122);
+    padding: 10px 70px;
+    transition: .2s ease-out;
+}
+
+.home .reserve-button:hover{
+    text-decoration: none;
+    background-color: rgb(29, 97, 122);
+    font-weight: 200;
+    border: .5px solid rgb(29, 97, 122);
+    padding: 10px 70px;
+    color: white;
+}
+
 .row3{
     position: relative;
     display: flex;
@@ -114,7 +139,7 @@
     margin: 10px 0px 0px 0px;
 }
 
-.physician{
+.physicianContainer{
     background-image: url("../images/physician.png");
     background-size: contain;
     background-color: rgb(230, 230, 230);
@@ -233,4 +258,109 @@
 
 .treat-link:hover{
     text-decoration: underline;
+}
+
+.home-mobile{
+    display: none;
+}
+
+@media screen and (max-width: 576px) {
+    .home{
+        display: none;
+    }
+
+    .home-mobile{
+        display: block;
+        margin-top: 60px;
+        width: 100%;
+    }
+
+    .home-mobile a{
+        text-decoration: none;
+        color: black;
+    }
+
+    .home-mobile-row1{
+        margin-top: 5px;
+    }
+
+    .home-mobile-row1, .home-mobile-row2, .home-mobile-row3{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .home-mobile-box1, .home-mobile-box2, .home-mobile-box3, .home-mobile-box4, .home-mobile-box5, .home-mobile-box6{
+        background-color: white;
+        width: 110px;
+        height: 110px;
+        margin: 10px 8px;
+        border-radius: 15px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-size: .8em;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    }
+
+    .physicianContainer{
+        background-repeat: no-repeat;
+        background-position: center;
+        border-radius: 20px;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        width: 300px;
+        height: 150px;
+        padding: 0 30px;
+        margin-right: 0;
+        margin-bottom: 20px;
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .physicianIntro{
+        display: flex;
+        flex-direction: column;
+        margin: 25px 6% 10px 0;
+    }
+
+    .physicianIntro > .title{
+        font-weight: 800;
+    }
+
+    .physicianIntro > .desc{
+        font-size: .8em;
+    }
+
+    .box-title{
+        margin: 0 !important;
+        font-size: 1.7em !important;
+    }
+
+    .icon{
+        height: 30px;
+        width: 30px;
+        margin-top: 8px;
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+
+    .about-icon{
+        background-image: url('../images/aboutus.svg');
+    }
+    .treatment-icon{
+        background-image: url('../images/treatment.svg');
+    }
+    .test-icon{
+        background-image: url('../images/test.svg');
+    }
+    .ask-icon{
+        background-image: url('../images/contact.svg');
+    }
+    .insurance-icon{
+        background-image: url('../images/insurance.svg');
+    }
+    .map-icon{
+        background-image: url('../images/map.svg');
+    }
 }
